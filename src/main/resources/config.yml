@@ -1,0 +1,19 @@
+rewards:
+  - id: 0
+    cooldown: 86400 # saniye
+    response: "&bGünlük ödülünü aldın!"
+    response_no_perm: "&cBu ödülü almak için asdada yetkisine sahip olmalısın!"
+    commands:
+      - "eco give %player% 1000"
+    name: "&eGünlük Ödül"
+    lore_not_taken:
+      - "- &a1000 bakiye"
+      - "&7Ödülünü her gün alabilirsin!"
+    lore_taken:
+      - "&7Ödülünü almak için kalan süre:"
+      - "&e%remaining_time%"
+    permission: "reward.daily"
+gui_title: "&eÖdüller"
+join_message:
+  - "&bAlınacak %reward_count% ödülün var!"
+time_format: "%dg %dsa %ddk %dsn"

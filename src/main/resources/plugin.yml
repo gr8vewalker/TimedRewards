@@ -1,0 +1,5 @@
+name: IntegraTimedRewards
+version: 1.0
+main: dev.integra.timedrewards.TimedRewardsPlugin
+author: Ahmetflix
+api-version: 1.16
